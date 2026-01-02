@@ -1,24 +1,24 @@
 import json
-import os
+from pathlib import Path
 
-FILE_NAME = "queue.json"
+QUEUE_FILE = Path("queue.json")
 
-def save_queue(adds, dels, contributors):
+def save_queue(pending_adds, pending_dels, contributors):
 	data = {
-		"pending_adds": list(adds),
-		"pending_dels": list(dels),
-		"contributors": list(contributors)
+		"pending_adds": sorted(pending_adds),
+		"pending_dels": sorted(pending_dels),
+		"contributors": sorted(contributors),
 	}
-	with open(FILE_NAME, 'w') as f:
-		json.dump(data, f)
+	QUEUE_FILE.write_text(json.dumps(data, indent=2))
+
 
 def load_queue():
-	if not os.path.exists(FILE_NAME):
+	if not QUEUE_FILE.exists():
 		return set(), set(), set()
-	with open(FILE_NAME, 'r') as f:
-		data = json.load(f)
-		return (
-			set(data.get("pending_adds", [])),
-			set(data.get("pending_dels", [])),
-			set(data.get("contributors", []))
-		)
+
+	data = json.loads(QUEUE_FILE.read_text())
+	return (
+		set(data.get("pending_adds", [])),
+		set(data.get("pending_dels", [])),
+		set(data.get("contributors", [])),
+	)
