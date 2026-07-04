@@ -26763,6 +26763,8 @@ bifacial
 bifacially
 bifarious
 bifariously
+bifauxnen
+bifauxnens
 biff
 biffed
 biffer
@@ -28152,6 +28154,10 @@ bisexually
 bisexuals
 bish
 bishes
+bishojo
+bishojos
+bishonen
+bishonens
 bishop
 bishopbird
 bishopbirds
@@ -28166,6 +28172,10 @@ bishoprics
 bishops
 bishopweed
 bishopweeds
+bishoujo
+bishoujos
+bishounen
+bishounens
 bishydroxycoumarin
 bishydroxycoumarins
 bisindolylmaleimide
