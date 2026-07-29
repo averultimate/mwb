@@ -6142,10 +6142,7 @@ ahem
 ahemeral
 ahent
 ahh
-ahhed
 ahhh
-ahhing
-ahhs
 ahi
 ahidname
 ahidnames
@@ -96536,7 +96533,6 @@ everywomen
 eves
 evet
 evets
-evhoe
 evict
 evicted
 evictee
@@ -112862,7 +112858,6 @@ gawkling
 gawklings
 gawks
 gawky
-gawmfert
 gawmoge
 gawmoges
 gawmp
@@ -147234,7 +147229,6 @@ jivier
 jiviest
 jiving
 jivy
-jixun
 jiz
 jizz
 jizzes
@@ -148406,7 +148400,6 @@ jwarlar
 jwipo
 jy
 jyes
-jymold
 jynges
 jynx
 jynxed
@@ -229466,7 +229459,6 @@ quesadillas
 queso
 quesos
 quesquemitl
-quesquemitlmeh
 quesquemitls
 quest
 questant
@@ -251008,7 +251000,6 @@ schwarzrieslings
 schwas
 schwertgroschen
 schwertgroschens
-schweunge
 schwu
 schwung
 schwunge
@@ -253592,11 +253583,7 @@ seidel
 seidels
 seidh
 seidhr
-seidhrs
-seidhs
 seidr
-seidrs
-seids
 seif
 seifs
 seifuku
@@ -253704,8 +253691,6 @@ seiten
 seitens
 seith
 seithr
-seithrs
-seiths
 seities
 seity
 seiyuu
@@ -261395,9 +261380,10 @@ sixtieths
 sixty
 sixty-eleven
 sixty-fourmo
-sixty-fourmossixtysomething
+sixty-fourmos
 sixtyfold
 sixtyish
+sixtysomething
 sixtysomethings
 sizable
 sizableness
